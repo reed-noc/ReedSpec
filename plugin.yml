@@ -1,0 +1,12 @@
+name: ReedSpec
+main: live.helixsmp.spec
+version: 1.0
+description: A light plugin for players to go into spectator mode without moving locations.
+commands:
+  spec:
+    description: Allows players to go into spectator mode.
+
+permissions:
+  spec.*:
+    default: op
+    description: Allows players to go into spectator mode.
